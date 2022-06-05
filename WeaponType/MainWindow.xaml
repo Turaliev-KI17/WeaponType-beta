@@ -1,0 +1,17 @@
+﻿<Window x:Class="WeaponType.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeaponType"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <TextBlock x:Name="Result" HorizontalAlignment="Left" Margin="525,139,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button Content="Загрузить" HorizontalAlignment="Left" Margin="157,320,0,0" VerticalAlignment="Top" Height="42" Width="195" Click="OpenImg"/>
+        <Image x:Name="ImageView" HorizontalAlignment="Left" Height="243" Margin="125,27,0,0" VerticalAlignment="Top" Width="287"/>
+
+
+    </Grid>
+</Window>
